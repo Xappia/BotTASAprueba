@@ -53,8 +53,8 @@
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 		embedded_svc.addEventHandler("onConnectionError", function(data) {
-    /*console.log("onConnectionError event was fired.  liveAgentSessionKey was " + data.liveAgentSessionKey);
-});*/
+    console.log("onConnectionError event was fired.  liveAgentSessionKey was ");
+});
 
 		embedded_svc.init(
 			'https://garbarino--BOTDEV.cs14.my.salesforce.com',
