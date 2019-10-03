@@ -31,19 +31,19 @@
 			embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 			embedded_svc.settings.entryFeature = 'LiveAgent';
 			embedded_svc.init(
-				'https://garbarino--BOTTEST.cs92.my.salesforce.com',
-				'https://bottest-garbarinoencuestas.cs92.force.com/einsteinbotgarbarinotest',
-				gslbBaseURL,
-				'00D3F000000DTQM',
-				'Einstein_Bot_TEST',
-				{
-					baseLiveAgentContentURL: 'https://c.la2-c1cs-iad.salesforceliveagent.com/content',
-					deploymentId: '5721N000000LDE2',
-					buttonId: '5731N000000LEkx',
-					baseLiveAgentURL: 'https://d.la2-c1cs-iad.salesforceliveagent.com/chat',
-					eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I3F0000004CDjUAM_16b29876644',
-					isOfflineSupportEnabled: true
-				}
+				 'https://garbarino--PreProd.cs15.my.salesforce.com',
+            'https://preprod-garbarinoencuestas.cs15.force.com/einsteinbotgarbarinopreprod',
+            gslbBaseURL,
+            '00De0000001O8My',
+            'Garbus',
+            {
+                baseLiveAgentContentURL: 'https://c.la1-c1cs-iad.salesforceliveagent.com/content',
+                deploymentId: '5721N000000LDE2',
+                buttonId: '5731N000000LEkx',
+                baseLiveAgentURL: 'https://d.la1-c1cs-iad.salesforceliveagent.com/chat',
+                eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04Ie00000004CEIEA2_16cbf3d6713',
+                isOfflineSupportEnabled: false
+            }
 			);
 		};
 		if (!window.embedded_svc) {
